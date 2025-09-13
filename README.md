@@ -14,7 +14,6 @@ This repository contains the implementation of two models to predict and manage 
 - [Dataset](#dataset)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Results](#results)
 ---
 
 ## Dataset
@@ -45,7 +44,7 @@ python src/train_rl.py --data data/loan_data.csv --save_model models/fqi_rl_agen
 
 ---
 
-## Results
+
 
 
 
