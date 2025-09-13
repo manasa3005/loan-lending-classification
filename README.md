@@ -11,7 +11,6 @@ This repository contains the implementation of two models to predict and manage 
 ## Table of Contents
 
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Results](#results)
@@ -29,22 +28,7 @@ The dataset contains loan applications with features such as:
 
 The target variable is `loan_status`, which is binarized as:  
 - `0`: Fully Paid  
-- `1`: Defaulted (including "Charged Off")  
-
----
-
-## Project Structure
-
-├── data/ # Raw and processed datasets
-├── models/ # Saved models (MLP and RL agent)
-├── notebooks/ # Jupyter notebooks for EDA and model exploration
-├── src/ # Python scripts
-│ ├── preprocessing.py # Data cleaning & feature preprocessing
-│ ├── train_mlp.py # Train MLP model
-│ ├── train_rl.py # Train FQI-RL agent
-│ └── evaluate.py # Model evaluation
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- `1`: Defaulted (including "Charged Off")
 
 
 ---
