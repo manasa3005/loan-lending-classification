@@ -13,8 +13,7 @@ This repository contains the implementation of two models to predict and manage 
 - [Dataset](#dataset)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Results](#results)
-- [Future Steps](#future-steps)
+
 
 ---
 
