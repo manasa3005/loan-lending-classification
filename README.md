@@ -1,4 +1,4 @@
-# loan-lending-classification
+
 # Loan Default Prediction & Offline Reinforcement Learning Agent
 
 This repository contains the implementation of two models to predict and manage loan approval decisions using a dataset of loan applicants:
