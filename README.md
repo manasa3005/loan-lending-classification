@@ -37,7 +37,7 @@ The target variable is `loan_status`, which is binarized as:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/loan-default-rl.git
+git clone https://github.com/manasa3005/loan-lending-classification.git
 cd loan-default-rl
 pip install -r requirements.txt
 python src/train_mlp.py --data data/loan_data.csv --save_model models/mlp_default_risk.pth
