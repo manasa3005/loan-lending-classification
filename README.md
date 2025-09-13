@@ -38,7 +38,10 @@ The target variable is `loan_status`, which is binarized as:
 ```bash
 git clone https://github.com/manasa3005/loan-lending-classification.git
 cd loan-lending-classification
-pip install -r requirements.txt
+pip install -r requirements.txt'''
+
+## Usage
+
 python src/train_mlp.py --data data/loan_data.csv --save_model models/mlp_default_risk.pth
 python src/train_rl.py --data data/loan_data.csv --save_model models/fqi_rl_agent.pth
 
