@@ -14,8 +14,7 @@ This repository contains the implementation of two models to predict and manage 
 - [Dataset](#dataset)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-
-
+- [Results](#results)
 ---
 
 ## Dataset
@@ -43,4 +42,10 @@ cd loan-lending-classification
 pip install -r requirements.txt
 python src/train_mlp.py --data data/loan_data.csv --save_model models/mlp_default_risk.pth
 python src/train_rl.py --data data/loan_data.csv --save_model models/fqi_rl_agent.pth
+
+---
+
+## Results
+
+
 
