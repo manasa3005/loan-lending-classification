@@ -1,6 +1,7 @@
 
 # Loan Default Prediction & Offline Reinforcement Learning Agent
 Dataset: https://www.kaggle.com/datasets/wordsforthewise/lending-club
+
 This repository contains the implementation of two models to predict and manage loan approval decisions using a dataset of loan applicants:
 
 1. **Predictive Deep Learning Model (MLP)** – A supervised model that predicts the probability of loan default.  
