@@ -16,6 +16,7 @@ This repository contains the implementation of two models to predict and manage 
 - [Dataset](#dataset)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
+- [Limitations](#limitatins) 
 ---
 
 ## Dataset
@@ -49,7 +50,7 @@ python src/train_rl.py --data data/loan_data.csv --save_model models/fqi_rl_agen
 
 ---
 
-
-
-
+**## Limitations**
+Selection Bias due to Accepted-Only Data
+The LendingClub dataset used in this project only contains loans that were historically accepted. For applicants who were rejected, no repayment outcomes exist. This introduces a selection bias
 
